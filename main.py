@@ -1,14 +1,7 @@
-from pystyle import *
 import zlib, re, os, base64, json
 import requests
 from time import time, sleep
-from getpass import getpass
 
-dark = Col.dark_gray
-light = Colors.StaticMIX((Col.cyan, Col.purple, Col.gray))
-acc = Colors.StaticMIX((Col.cyan, Col.purple, Col.blue, Col.gray))
-purple = Colors.StaticMIX((Col.purple, Col.blue))
-bpurple = Colors.StaticMIX((Col.purple, Col.cyan))
 
 # 99% of the code is from sfx2me's hyperion deobf
 # The print is from billythegoat356 ( credits to him )
